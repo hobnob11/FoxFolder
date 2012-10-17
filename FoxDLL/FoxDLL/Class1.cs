@@ -60,6 +60,8 @@ namespace FoxScreen
                     cna[i] = '_';
                 }
             }
+            Console.WriteLine("AddUploadCheckpoint1, if you are reading this, then everything before the actual uploading has worked");
+
             customname = new String(cna);
 
         }
@@ -83,6 +85,7 @@ namespace FoxScreen
 
         private void UploadThread(object obj)
         {
+            Console.WriteLine("AddUploadCheckpoint2, This means you are in teh same sub thing as the login details and (i think) the uploading");
             UploadThreadInfo info = (UploadThreadInfo)obj;
             string customname = info.customname;
             MemoryStream mstr = info.mstr;
