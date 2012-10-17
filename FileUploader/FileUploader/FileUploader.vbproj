@@ -61,6 +61,12 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="foxCavesAPI">
+      <HintPath>..\..\FoxDLL\foxCavesAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="FoxDLL">
+      <HintPath>..\..\FoxDLL\FoxDLL\obj\Release\FoxDLL.dll</HintPath>
+    </Reference>
     <Reference Include="FoxScreen">
       <HintPath>..\..\FoxScreen\FoxScreen\bin\Debug\FoxScreen.dll</HintPath>
     </Reference>
